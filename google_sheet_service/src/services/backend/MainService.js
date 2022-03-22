@@ -24,15 +24,3 @@ export class MainService {
         return this.googleSheetsService;
     }
 }
-
-// kanchvum e getSheets() methody vory veradarcnum e MainService classi googleSheetsService - y
-
-// Vory ir hertin stexcvel e constructor um vorpes object poxancum enq configService - y u googleAuthService-y
-
-// incha es configum katarvum
-
-// stex grvum e bolor env nery vory poxancum enq ham googleauthserice in ham googleSheetsService in
-
-// incha google auth um katarvum
-
-// -> Google Auth Services

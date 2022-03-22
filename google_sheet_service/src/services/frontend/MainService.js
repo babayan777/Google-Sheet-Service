@@ -23,13 +23,3 @@ export class MainServiceFront {
   }
 
 }
-
-// kanchvum e getGoogleSheets methody vory veradardznum e googleSheetsService - object - y.
-
-// googleSheetsService - y stexcvum e constructorum;
-
-// constructory class - i standart methodneric e vory kanchvum e ayn jamanak erb vor mer classic stexcvum e nor object
-
-// constructorum stexcvum e googleSheetsService-y vory jarangum e GoogleSheetsService classic, poxancum enq apiService objecty vory jarangum e ApiServic classic
-
-// -> ApiService.js

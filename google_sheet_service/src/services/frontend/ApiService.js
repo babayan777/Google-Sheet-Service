@@ -7,28 +7,17 @@ const PATHS = {
 
 export class ApiService extends HttpService {
 
-    post(path, headers, body) {
-        headers = {
+    post(path, body) {
+        this.headers = {
             [HEADERS.CONTENT_TYPE]: CONTENT_TYPES.JSON,
-            ...headers
         };
 
-        return super.post(path, headers, body);
+        return super.post(path, this.headers, body);
     }
 
     updateSpreadSheet(values, spreadsheet) {
         return this.post(
-            PATHS.UPDATE_SPREADSHEET, null , {values, spreadsheet}
+            PATHS.UPDATE_SPREADSHEET, {values, spreadsheet}
         );
     }
 }
-
-// amboxj pathery grum enq ste
-
-// unenq post method vory stanum e path, headers, body, heto kanchum e ira tsnox classi HttpService - i post methody
-
-// unenq naev updateSpreadSheet stanum e valuenery, spreadSheet kanchum e mer APiservice i post methodin poxancelov
-// pathy, headers - y null vortev arden ka postum, body(values,spreadsheet)
-
-// -> HTTP
-

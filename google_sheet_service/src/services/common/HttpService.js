@@ -79,7 +79,3 @@ export class HttpService {
     }
 
 }
-
-// ashxatum a post methody, apinerum unenq update-spreadsheet
-
-// -> update-spreadsheet.js

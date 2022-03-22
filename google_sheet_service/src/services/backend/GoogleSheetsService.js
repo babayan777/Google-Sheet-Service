@@ -17,7 +17,7 @@ export class GoogleSheetsService{
         });
     }
 
-    async updateData({ values,  spreadsheet }) {
+    async updateData({ values, spreadsheet }) {
         await this.sheets.spreadsheets.values.append({
             spreadsheetId: this.configService.googleSheets[spreadsheet],
             range: 'A2',
@@ -30,10 +30,3 @@ export class GoogleSheetsService{
         });
     }
 }
-
-
-// spreadsheetId - sheet i id
-
-// range cuyc a talis te vortex piti sksilcnel valuener mer depqum A2
-
-//

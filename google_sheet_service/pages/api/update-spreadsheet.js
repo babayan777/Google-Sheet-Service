@@ -26,9 +26,3 @@ export default async function updateSpreadsheet(req, res) {
     res.status(405).json({ message: 'Method not allowed' });
   }
 }
-
-// ete req methody post a, ashxatacnum e hetevyal cody
-
-// googleSheetsService in vergarum enq Backendi MainService getSheets()
-
-// -> Backend/MainService
